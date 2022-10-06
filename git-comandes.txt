@@ -8,5 +8,6 @@
 
 для того щоб створити новий бранч з того на якому ми знаходимося, пишем - git checkout -b <new_branch_name>
 
-
 from branch feature a
+
+from feature branch b
