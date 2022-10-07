@@ -1,13 +1,29 @@
-Для ініціалізації репозиторія робимо git init
+Для инициализации репозитория - пишем git init .
 
-Щоб зрощуміти стан репозиторію на данний момент - git status
+Чтобы понять текущее состояние репозитория - пишем git status
 
-Щоб додати файл в staging area команда - git add<file_name>
+Чтобы добавить файл в staging area - пишем git add <имя файла>
 
-// comment from another developer
+Чтобы сделать коммит - пишем git commit -m "<Описание коммита>"
 
-для того щоб створити новий бранч з того на якому ми знаходимося, пишем - git checkout -b <new_branch_name>
+Чтобы посмотреть историю коммитов - пишем git log. Эта команда покажет список коммитов и их хешей.
 
-from branch feature a
+Чтобы перейти к конкретному коммиту - пишем git checkout <hash>
 
-from feature branch b
+Чтобы связать удаленный репозиторий с локальным - один раз пишем git remote add origin <адрес репозитория>
+
+Чтобы глянуть  список удаленных репозиториев - пишем git remote --v
+
+Чтобы залить код на удаленный репозиторий - пишем git push origin master
+
+Чтобы подтянуть код с удаленного репозитория - пишем git pull origin master
+
+
+КАК РАБОТАТЬ С ВЕТКАМИ
+git branch - показывает, на какой вы сейчас ветки
+git checkout -b <branch_name> - создает новую ветку с именем <branch_name> и переключается на эту ветку
+git checkout <branch_name> - переключается на существующую ветку с именем <branch_name>
+
+This is text made in branch A
+
+This text in branch B
